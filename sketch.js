@@ -6,7 +6,9 @@ var engine, world;
     
 var ground;    
 var boundary,division;    
-var ball,plinko;    
+var ball1,ball2,ball3,ball4,ball5;
+var plinko1,plinko2,plinko3,plinko4,plinko5,plinko6,plinko7,plinko8,plink9,plink10;
+var plinko11,plinko12,plinko13,plink014,plinko15,plinko16,plinko17,plinko18,plinko19,plinko20;    
     
 function setup() {    
   createCanvas(800,1000);    
