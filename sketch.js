@@ -20,6 +20,11 @@ function setup() {
   ground = Bodies.rectangle(200,390,200,20,ground_options);
   World.add(world,ground);
 
+  var ball_options = {
+    isStatic : false
+    
+  }
+
   ball1 = Bodies.circle(200,100,20,ball_options);
   World.add(world,ball1);
 
@@ -158,7 +163,7 @@ function setup() {
   World.add(world,plinko40);
 
  var division_option = {
-   isStatic = true
+   isStatic : true
  }
 
   division1 = Bodies.rectangle(200,100,20,division_option);
